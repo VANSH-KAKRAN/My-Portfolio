@@ -222,7 +222,8 @@ body span {
     font-size: 50px;
 }
 .copyright{
- max-width : 90%;
+ margin:auto;
+ max-width: 90%;
   padding-top:120px ;
   text-align: center;
 }
