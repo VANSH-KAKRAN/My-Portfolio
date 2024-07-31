@@ -145,6 +145,7 @@ body span {
   .aboutme-text {
     font-size: 30px !important;
     font-weight: 700;
+    text-align: left !important;
   }
   .aboutme-below-text {
     max-width: 90%;
