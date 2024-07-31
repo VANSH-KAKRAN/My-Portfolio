@@ -228,6 +228,6 @@ body span {
   text-align: center;
 }
 #skills{
-font-size: xx-large;
+font-size: xx-large !important;
 font-weight: 700;
 }
