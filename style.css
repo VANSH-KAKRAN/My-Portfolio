@@ -1,5 +1,5 @@
 body {
- cursor:auto;
+  cursor: auto;
   list-style: none;
 }
 .container-fluid {
@@ -106,17 +106,16 @@ body span {
     max-width: 90%;
     margin: 5%;
   }
-  .contact-card{
+  .contact-card {
     display: grid !important;
     grid-template-columns: 1fr 1fr;
   }
-  @media only screen and (max-width:700px) {
-    .contact-card{
+  @media only screen and (max-width: 700px) {
+    .contact-card {
       align-items: center;
-      
+
       display: flex !important;
       flex-direction: column !important;
-
     }
   }
   @media only screen and (max-width: 540px) {
@@ -124,7 +123,7 @@ body span {
       display: flex;
       flex-direction: column;
     }
-    
+
     .My-info {
       padding: 0;
       display: flex;
@@ -186,60 +185,66 @@ body span {
 .university {
   font-size: 30px;
 }
-.contact-card{
+.contact-card {
   display: flex;
-    max-width: 80%;
-    margin: auto;
-    gap: 5%;
+  max-width: 80%;
+  margin: auto;
+  gap: 5%;
 }
-.card-img-top{
+.card-img-top {
   padding: 30px;
   border-radius: 50%;
   width: 100px !important;
   background-color: rgb(114, 91, 37);
 }
-.card{
+.card {
   border: 0px solid black !important;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .contact-main {
   text-align: center;
 }
-.contact-main :nth-child(1){
+.contact-main :nth-child(1) {
   font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
 }
-.education-text{
+.education-text {
   font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
 }
-.copyright{
- margin:auto;
- max-width: 90%;
-  padding-top:120px ;
+.copyright {
+  margin: auto;
+  max-width: 90%;
+  padding-top: 120px;
   text-align: center;
 }
-#skills{
-font-size: xx-large !important;
-font-weight: 700;
-}
-.spotifyProject{
-  width: 50vw;
+
+.spotifyProject {
+  width: 60vw;
   border-radius: 4px;
+  opacity: 0.9;
+  transition: width 0.3s;
+  box-shadow: 1px 1px 100px 10px rgb(116, 116, 116);
 }
-.projects a{
-  
+#projects a {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 50px;
-  opacity: 0.8;
+}
+#projects{
+  position: relative;
+  top: 100px;
+}
+.spotifyProject:hover {
+  opacity: 1;
+  width: 52vw;
+  box-shadow: 5px 5px 100px 10px rgb(116, 116, 116);
 }
