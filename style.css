@@ -62,6 +62,7 @@ nav {
   align-items: center;
   justify-content: center;
   padding-top: 100px;
+  letter-spacing: 1px;
 }
 .sec-2 {
   display: flex;
