@@ -231,3 +231,15 @@ body span {
 font-size: xx-large !important;
 font-weight: 700;
 }
+.spotifyProject{
+  width: 50vw;
+  border-radius: 4px;
+}
+.projects a{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  opacity: 0.8;
+}
